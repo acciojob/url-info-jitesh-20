@@ -1,8 +1,8 @@
 //your JS code here. If required.
 
-function URL_length(url){
+function URL_length(){
+	let url=location.href; 
 	return url.length;
 }
 
-const url=prompt("Enter URL")
-alert(URL_length(url))
+alert("The length of the URL is: "+URL_length()) 
